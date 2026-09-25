@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My PDFs</title>
+        <meta name="robots" content="noindex">
+    </head>
+    <body>
+        <h1>My PDFs</h1>
+        <p><a href="../">Back to home</a></p>
+        <ul id="list"></ul>
+
+        <script>
+            fetch("https://api.github.com/repos/kpphamda/kpphamda.github.io/contents/pdfs/files")
+                .then(response => response.json())
+                .then(files => {
+                    for (const file of files) {
+                        if (file.name.toLowerCase().endsWith(".pdf")) {
+                            document.getElementById("list").innerHTML +=
+                                `<li><a href="files/${encodeURIComponent(file.name)}">${file.name}</a></li>`;
+                        }
+                    }
+                });
+        </script>
+    </body>
+</html>
