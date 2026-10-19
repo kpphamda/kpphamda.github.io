@@ -1,0 +1,236 @@
+{
+  "countries": [
+    {
+      "id": "vietnam",
+      "name": "Vietnam",
+      "crops": [
+        {
+          "id": "rice",
+          "name": "Rice",
+          "region": "Mekong Delta and Red River Delta",
+          "production": "43,450,449 tonnes",
+          "dish": "Pho (rice noodle soup)",
+          "image": "img/crops/vietnam/pho.jpg",
+          "imageAlt": "Bowl of pho",
+          "photographer": "Wesoree",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nam_pho_bowl.jpg",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "licenseName": "CC BY-SA 4.0"
+        },
+        {
+          "id": "coffee",
+          "name": "Coffee",
+          "region": "Central Highlands (Dak Lak, Lam Dong)",
+          "production": "2,015,289 tonnes",
+          "dish": "Ca phe sua da (iced milk coffee)",
+          "image": "img/crops/vietnam/ca-phe-sua-da.jpg",
+          "imageAlt": "Ca phe sua da being prepared with a drip filter",
+          "photographer": "yoon-cho",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cà_phê_sữa_đá_preparation.jpg",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/kr/deed.en",
+          "licenseName": "CC BY 2.0 KR"
+        },
+        {
+          "id": "cassava",
+          "name": "Cassava",
+          "region": "Central Highlands and Southeast region",
+          "production": "10,533,957 tonnes",
+          "dish": "Khoai mi nuong (roasted cassava)",
+          "image": "img/crops/vietnam/khoai-mi-nuong.jpg",
+          "imageAlt": "Roasted cassava",
+          "photographer": "Phương Huy",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khoai_mì_nướng,_tháng_8_năm_2020_(1).jpg",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "licenseName": "CC BY-SA 4.0"
+        },
+        {
+          "id": "sugarcane",
+          "name": "Sugarcane",
+          "region": "Mekong Delta and central coast",
+          "production": "11,843,773 tonnes",
+          "dish": "Nuoc mia (sugarcane juice)",
+          "image": "img/crops/vietnam/nuoc-mia.jpg",
+          "imageAlt": "Glass of sugarcane juice",
+          "photographer": "Fgnievinski",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glass_of_sugarcane_juice.jpg",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "licenseName": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "name": "China",
+      "crops": [
+        {
+          "id": "rice",
+          "name": "Rice",
+          "region": "Yangtze River valley and southern China",
+          "production": "209,173,000 tonnes",
+          "dish": "Fried rice",
+          "image": "img/crops/china/fried-rice.jpg",
+          "imageAlt": "Plate of fried rice",
+          "photographer": "Peachyeung316",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fried_rice_in_home.jpg",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "licenseName": "CC BY-SA 4.0"
+        },
+        {
+          "id": "wheat",
+          "name": "Wheat",
+          "region": "North China Plain (Henan, Shandong)",
+          "production": "140,105,000 tonnes",
+          "dish": "Hand-pulled noodles",
+          "image": "img/crops/china/hand-pulled-noodles.jpg",
+          "imageAlt": "Bowl of hand-pulled noodles",
+          "photographer": "MNXANL",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:202403_Hand-Pulling_Noodles_of_Yafan,_Jinhua.jpg",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "licenseName": "CC BY-SA 4.0"
+        },
+        {
+          "id": "soybeans",
+          "name": "Soybeans",
+          "region": "Northeast China (Heilongjiang)",
+          "production": "20,655,000 tonnes",
+          "dish": "Mapo tofu",
+          "image": "img/crops/china/mapo-tofu.jpg",
+          "imageAlt": "Mapo tofu in a spicy red sauce",
+          "photographer": "Sharon Chen",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vegan_Mapo_Tofu_(30679011112).jpg",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "licenseName": "CC BY 2.0"
+        },
+        {
+          "id": "tea",
+          "name": "Tea",
+          "region": "Fujian, Yunnan, and Zhejiang",
+          "production": "16,298,900 tonnes",
+          "dish": "Tea eggs",
+          "image": "img/crops/china/tea-eggs.jpg",
+          "imageAlt": "Tea eggs with cracked marbled shells",
+          "photographer": "Daniela Eftimova",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tea_eggs_1.jpg",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "licenseName": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "crops": [
+        {
+          "id": "rice",
+          "name": "Rice",
+          "region": "Niigata, Hokkaido, and Tohoku",
+          "production": "10,142,000 tonnes",
+          "dish": "Sushi",
+          "image": "img/crops/japan/sushi.jpg",
+          "imageAlt": "Plates of assorted sushi",
+          "photographer": "Nesnad",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:2007feb-sushi-odaiba-manytypes.jpg",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+          "licenseName": "CC BY 2.5"
+        },
+        {
+          "id": "soybeans",
+          "name": "Soybeans",
+          "region": "Hokkaido",
+          "production": "252,400 tonnes",
+          "dish": "Miso soup",
+          "image": "img/crops/japan/miso-soup.jpg",
+          "imageAlt": "Bowl of miso soup",
+          "photographer": "Ocdp",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miso_Soup_001.jpg",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "licenseName": "CC0"
+        },
+        {
+          "id": "sweet-potato",
+          "name": "Sweet Potato",
+          "region": "Kagoshima and Ibaraki",
+          "production": "717,000 tonnes",
+          "dish": "Yaki imo (roasted sweet potato)",
+          "image": "img/crops/japan/yaki-imo.jpg",
+          "imageAlt": "Roasted sweet potatoes",
+          "photographer": "National Institute of Korean Language",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gungoguma_(roasted_sweet_potatoes)_2.jpg",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/kr/deed.en",
+          "licenseName": "CC BY-SA 2.0 KR"
+        },
+        {
+          "id": "buckwheat",
+          "name": "Buckwheat",
+          "region": "Hokkaido and Nagano",
+          "production": "40,400 tonnes",
+          "dish": "Soba noodles",
+          "image": "img/crops/japan/soba.jpg",
+          "imageAlt": "Bowl of soba noodles",
+          "photographer": "pelican",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Soba_noodle_(6666354369).jpg",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "licenseName": "CC BY-SA 2.0"
+        }
+      ]
+    },
+    {
+      "id": "south-korea",
+      "name": "South Korea",
+      "crops": [
+        {
+          "id": "rice",
+          "name": "Rice",
+          "region": "Jeolla and Chungcheong provinces",
+          "production": "4,783,114 tonnes",
+          "dish": "Bibimbap",
+          "image": "img/crops/south-korea/bibimbap.jpg",
+          "imageAlt": "Bowl of bibimbap",
+          "photographer": "Chloe Lim",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bibimbap_6.jpg",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "licenseName": "CC BY 2.0"
+        },
+        {
+          "id": "barley",
+          "name": "Barley",
+          "region": "Jeolla provinces and Jeju",
+          "production": "47,730 tonnes",
+          "dish": "Boricha (barley tea)",
+          "image": "img/crops/south-korea/boricha.jpg",
+          "imageAlt": "Cup of boricha (barley tea)",
+          "photographer": "National Institute of Korean Language",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boricha_(barley_tea).jpg",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/kr/deed.en",
+          "licenseName": "CC BY-SA 2.0 KR"
+        },
+        {
+          "id": "cabbage",
+          "name": "Cabbage",
+          "region": "Gangwon highlands",
+          "production": "2,378,687 tonnes",
+          "dish": "Kimchi",
+          "image": "img/crops/south-korea/kimchi.jpg",
+          "imageAlt": "Cabbage kimchi",
+          "photographer": "Korea.net / Korean Culture and Information Service",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:KOCIS_Kimchi_(4553316599).jpg",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "licenseName": "CC BY-SA 2.0"
+        },
+        {
+          "id": "soybeans",
+          "name": "Soybeans",
+          "region": "Gyeongsang and Gangwon provinces",
+          "production": "154,954 tonnes",
+          "dish": "Doenjang jjigae (soybean paste stew)",
+          "image": "img/crops/south-korea/doenjang-jjigae.jpg",
+          "imageAlt": "Pot of doenjang jjigae (soybean paste stew)",
+          "photographer": "Lee Dong-won",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doenjang-jjigae_4.jpg",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "licenseName": "CC0"
+        }
+      ]
+    }
+  ]
+}

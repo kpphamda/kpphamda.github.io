@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Kenneth Phamdao">
+  <meta name="description" content="Pick a country and then a staple crop to see where it is grown and what is made from it.">
+  <title>Crops | Staple Crops</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Staple Crops in Asian Countries</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="crops.html">Crops</a>
+      <a href="dishes.html">Regional Dishes</a>
+      <a href="contact.html">Contact Us</a>
+      <button type="button" id="accountButton" class="nav-button">Log In / Sign Up</button>
+    </nav>
+    <p id="accountNotice" class="notice" hidden>Accounts are not available yet. Log in and sign up will be added in a later version of this site.</p>
+  </header>
+
+  <main>
+    <h2>Crop Explorer</h2>
+    <p id="stepLabel" class="step-label"></p>
+    <div id="explorer" aria-live="polite"></div>
+  </main>
+
+  <footer>
+    <p>Sources: <a href="https://www.fao.org/faostat/en/#data/QCL">FAOSTAT</a>
+    <a href="https://en.wikipedia.org/wiki/Staple_food">Wikipedia: Staple Food</a>
+    <a href="https://en.wikipedia.org/wiki/Asian_cuisine">Wikipedia: Asian Cuisine</a>
+    Images: <a href="https://commons.wikimedia.org/">Wikimedia Commons</a></p>
+  </footer>
+
+  <script src="js/account.js"></script>
+  <script src="js/explorer.js"></script>
+</body>
+
+</html>
