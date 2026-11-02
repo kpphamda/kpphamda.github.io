@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Kenneth Phamdao">
+  <meta name="description" content="One time page that copies the crop data into the Firestore database.">
+  <title>Upload Data | Staple Crops</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Staple Crops in Asian Countries</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="crops.html">Crops</a>
+      <a href="dishes.html">Regional Dishes</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Upload Crop Data</h2>
+    <p>This page is a one time setup tool, not part of the site itself. It copies
+    <code>js/cropData.json</code> into Firestore so the Crops page has something to read.
+    Log in on the Home page first, then press the button once.</p>
+
+    <button type="button" id="uploadButton" disabled>Upload crop data to Firestore</button>
+    <p id="uploadStatus" class="status" aria-live="polite"></p>
+
+    <p><a href="index.html">Back to Home</a></p>
+  </main>
+
+
+  <footer>
+    <p>Sources: <a href="https://www.fao.org/faostat/en/#data/QCL">FAOSTAT</a>
+    <a href="https://en.wikipedia.org/wiki/Staple_food">Wikipedia: Staple Food</a>
+    <a href="https://en.wikipedia.org/wiki/Asian_cuisine">Wikipedia: Asian Cuisine</a>
+    Images: <a href="https://commons.wikimedia.org/">Wikimedia Commons</a></p>
+  </footer>
+
+  <script type="module" src="js/seedFirestore.js"></script>
+</body>
+
+</html>
